@@ -1,7 +1,7 @@
 ================================================================================
 REPLICATION PACKAGE
-Locating Lost Bronze Age Cities in Anatolia: A Comparative Study of
-Multidimensional Scaling and Graph Convolutional Networks
+Locating Lost Bronze Age Cities in Anatolia Using Multidimensional
+Scaling and Graph Convolutional Networks
 ================================================================================
 
 This package reproduces BOTH of the paper's methods: the Graph
@@ -66,9 +66,25 @@ city names and known coordinates):
 Modern-day inter-provincial trade data (Iller Arasi Ticaret.xlsx):
     T.C. Sanayi ve Teknoloji Bakanligi. Girisimci Bilgi Sistemi (GBS)
     Iller Arasi Ticaret Raporu. Republic of Turkiye Ministry of Industry
-    and Technology (2024).
+    and Technology.
     https://gbs.sanayi.gov.tr/Home/Report
-    Accessed: Dec. 15, 2025.
+    Report edition downloaded: 2024. Accessed: Dec. 15, 2025.
+
+    WHICH YEAR IS USED. The workbook contains one worksheet per year,
+    2006 through 2021, in that order. src/data.py loads it with
+    pd.read_excel(file_path, header=0) and does not pass sheet_name, so
+    pandas takes the workbook's FIRST worksheet -- 2006. Every modern-city
+    result currently in results/ was therefore produced from the 2006
+    trade matrix. To use a different year, pass the sheet explicitly in
+    _load_modern_trade_dataframe() in src/data.py, e.g.
+
+        df_raw = pd.read_excel(file_path, header=0, sheet_name='2021')
+
+    and rerun the four modern scripts (modern_loo_dyadic.py,
+    modern_loo_tii.py, mds_modern_loo_dyadic.py, mds_modern_loo_tii.py);
+    the GCN grid searches for the modern runs should be rerun as well.
+    Whichever year is used must match the year stated in the paper's
+    modern-cities subsection.
 
 Turkey administrative boundary outline (used to draw country borders on
 the maps):
@@ -116,20 +132,11 @@ included, and its provenance/licensing.
                           formula, the significance test). Not part of
                           the reported pipeline; run standalone if you
                           want to see that check for yourself.
-    CHANGELOG_AND_HANDOFF.md
-                          What changed vs. the original scripts, why,
-                          and how each fix was verified -- covers GCN,
-                          then MDS, in that order.
-    MANUSCRIPT_REVISION_GUIDE.md
-                          Point-by-point map from each referee comment to
-                          what's already been fixed/built, what still
-                          needs new manuscript text, and what needs an
-                          editorial decision -- includes the current,
-                          authoritative headline numbers (from
-                          results/Tables.xlsx) and every new citation
-                          this revision requires. Read this one first if
-                          you're picking up the manuscript rewrite itself
-                          rather than the code.
+    README.txt           This file.
+    results/Tables.xlsx  The reported tables collected in one workbook,
+                          one sheet per table, as they appear in the
+                          paper and its appendices. The authoritative
+                          copy of every headline number.
 
 
 --------------------------------------------------------------------------------
@@ -207,9 +214,12 @@ Step 1 -- Main results (any order)
 No mds_ancient_lost_tii.py / no "_constrained" variant: dyadic share
 outperformed TII in MDS's own LOO training, so (consistent with the
 original scripts) only dyadic is used for the actual lost-city
-prediction; directional-constraint training (Sec. 7.1, GCN only) doesn't
-have a natural equivalent in MDS's closed-form Procrustes alignment, so
-was not attempted for MDS -- see CHANGELOG_AND_HANDOFF.md's MDS section.
+prediction; directional-constraint training (GCN only -- see
+ancient_lost_dyadic_constrained.py in Section 5 below) doesn't have a
+natural equivalent in MDS's closed-form Procrustes alignment, so was not
+attempted for MDS. Adding it would mean replacing
+that closed-form alignment with an iterative constrained optimisation,
+which is left to future work.
 
 Step 2 -- Geographic screening (run after mds_ancient_lost_dyadic.py in Step 1)
 
@@ -479,6 +489,14 @@ on a fresh machine with nothing else to download or configure.
         gadm41_TUR_0/1/2.* -- GADM's Turkey administrative boundaries
         (country/province/district level; only level 1, province, is
         actually used by src/plots.py). https://gadm.org
+        Licence note: GADM data is free for academic use, but the GADM
+        licence does not permit redistribution without permission. These
+        files are included here only so that peer review is
+        self-contained. Anyone reusing this package should download the
+        Turkey level-1 boundary from gadm.org directly and point
+        GCN_SHAPEFILE_PATH at that copy; the maps also render correctly
+        against a public-domain substitute such as Natural Earth's
+        admin-1 boundaries, which carries no redistribution restriction.
 
     third_party_data/barjamovic_replication_package/
         Only the specific files this codebase reads from Barjamovic,
@@ -506,3 +524,31 @@ redirected with an environment variable instead (GCN_MODERN_TRADE_FILE,
 GCN_SHAPEFILE_PATH, GCN_REPLICATION_PACKAGE_DIR) -- useful if you'd
 rather point at your own copy, or a newer version of any of the above,
 without editing source.
+
+
+--------------------------------------------------------------------------------
+9. LICENCE AND HOW TO CITE
+--------------------------------------------------------------------------------
+
+The code in this package (experiments/, src/, tests/, legacy/) is released
+under the MIT Licence; see LICENSE.
+
+The bundled contents of third_party_data/ are NOT covered by that licence.
+Each item remains under the terms of its own source, as set out in Section
+8 above: the GBS inter-provincial trade workbook (Republic of Turkiye
+Ministry of Industry and Technology), the GADM Turkey boundaries (academic
+use, no redistribution without permission), and the specific files drawn
+from Barjamovic, Chaney, Cosar & Hortacsu's (2019) own public replication
+package.
+
+If you use this package, please cite the paper:
+
+    Bumen, A. & Sen, A. Locating Lost Bronze Age Cities in Anatolia Using
+    Multidimensional Scaling and Graph Convolutional Networks.
+
+and, for the underlying ancient trade data and the comparison estimates,
+the study it builds on:
+
+    Barjamovic, G., Chaney, T., Cosar, K. & Hortacsu, A. Trade, merchants,
+    and the lost cities of the Bronze Age. Quarterly Journal of Economics
+    134, 1455-1503 (2019). https://doi.org/10.1093/qje/qjz009
