@@ -1,0 +1,26 @@
+﻿python.exe : C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\grid_search.py:194: 
+UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:5 char:1
++ & $py experiments\grid_search_ancient_tii.py 2>&1 | Tee-Object -FileP ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\user\O...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\grid_search.py:215: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Ancient TII grid search: embedding_dim=8, lr=0.005
+Ancient TII grid search: embedding_dim=8, lr=0.008
+Ancient TII grid search: embedding_dim=8, lr=0.011
+Ancient TII grid search: embedding_dim=8, lr=0.014
+Ancient TII grid search: embedding_dim=8, lr=0.017
+Ancient TII grid search: embedding_dim=16, lr=0.005
+Ancient TII grid search: embedding_dim=16, lr=0.008
+Ancient TII grid search: embedding_dim=16, lr=0.011
+Ancient TII grid search: embedding_dim=16, lr=0.014
+Ancient TII grid search: embedding_dim=16, lr=0.017
+
+WINNER (Ancient TII, 25-node graph): LR=0.011, Emb=8, Epoch=62, Error=143.71 km
+Compare against the currently hardcoded EPOCHS=244, LR=0.011, EMBEDDING_DIM=8 before changing anything -- see module docstring.
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\grid_search_ancient_tii

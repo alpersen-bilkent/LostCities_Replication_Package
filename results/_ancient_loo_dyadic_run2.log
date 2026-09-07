@@ -1,0 +1,120 @@
+﻿python.exe : 
+At line:5 char:1
++ & $py experiments\ancient_loo_dyadic.py 2>&1 | Tee-Object -FilePath ' ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Ancient LOO (dyadic):   0%|          | 0/40 [00:00<?, ?it/s]
+Ancient LOO (dyadic):   2%|▎         | 1/40 [00:12<07:53, 12.13s/it]
+Ancient LOO (dyadic):   5%|▌         | 2/40 [00:24<07:40, 12.11s/it]
+Ancient LOO (dyadic):   8%|▊         | 3/40 [00:37<07:41, 12.47s/it]
+Ancient LOO (dyadic):  10%|█         | 4/40 [00:50<07:38, 12.73s/it]
+Ancient LOO (dyadic):  12%|█▎        | 5/40 [01:01<07:12, 12.36s/it]
+Ancient LOO (dyadic):  15%|█▌        | 6/40 [01:13<06:48, 12.01s/it]
+Ancient LOO (dyadic):  18%|█▊        | 7/40 [01:23<06:21, 11.56s/it]
+Ancient LOO (dyadic):  20%|██        | 8/40 [01:34<05:57, 11.19s/it]
+Ancient LOO (dyadic):  22%|██▎       | 9/40 [01:45<05:48, 11.25s/it]
+Ancient LOO (dyadic):  25%|██▌       | 10/40 [01:56<05:33, 11.10s/it]
+Ancient LOO (dyadic):  28%|██▊       | 11/40 [02:06<05:14, 10.84s/it]
+Ancient LOO (dyadic):  30%|███       | 12/40 [02:17<05:02, 10.82s/it]
+Ancient LOO (dyadic):  32%|███▎      | 13/40 [02:28<04:50, 10.77s/it]
+Ancient LOO (dyadic):  35%|███▌      | 14/40 [02:38<04:35, 10.60s/it]
+Ancient LOO (dyadic):  38%|███▊      | 15/40 [02:48<04:23, 10.56s/it]
+Ancient LOO (dyadic):  40%|████      | 16/40 [02:59<04:15, 10.63s/it]
+Ancient LOO (dyadic):  42%|████▎     | 17/40 [03:09<04:02, 10.55s/it]
+Ancient LOO (dyadic):  45%|████▌     | 18/40 [03:20<03:50, 10.49s/it]
+Ancient LOO (dyadic):  48%|████▊     | 19/40 [03:30<03:40, 10.48s/it]
+Ancient LOO (dyadic):  50%|█████     | 20/40 [03:41<03:28, 10.44s/it]
+Ancient LOO (dyadic):  52%|█████▎    | 21/40 [03:51<03:17, 10.40s/it]
+Ancient LOO (dyadic):  55%|█████▌    | 22/40 [04:01<03:06, 10.38s/it]
+Ancient LOO (dyadic):  57%|█████▊    | 23/40 [04:12<02:57, 10.44s/it]
+Ancient LOO (dyadic):  60%|██████    | 24/40 [04:22<02:46, 10.43s/it]
+Ancient LOO (dyadic):  62%|██████▎   | 25/40 [04:33<02:35, 10.38s/it]
+Ancient LOO (dyadic):  65%|██████▌   | 26/40 [04:43<02:25, 10.38s/it]
+Ancient LOO (dyadic):  68%|██████▊   | 27/40 [04:54<02:17, 10.61s/it]
+Ancient LOO (dyadic):  70%|███████   | 28/40 [05:07<02:15, 11.32s/it]
+Ancient LOO (dyadic):  72%|███████▎  | 29/40 [05:20<02:08, 11.70s/it]
+Ancient LOO (dyadic):  75%|███████▌  | 30/40 [05:31<01:56, 11.68s/it]
+Ancient LOO (dyadic):  78%|███████▊  | 31/40 [05:43<01:45, 11.68s/it]
+Ancient LOO (dyadic):  80%|████████  | 32/40 [05:55<01:33, 11.66s/it]
+Ancient LOO (dyadic):  82%|████████▎ | 33/40 [06:06<01:21, 11.68s/it]
+Ancient LOO (dyadic):  85%|████████▌ | 34/40 [06:18<01:10, 11.68s/it]
+Ancient LOO (dyadic):  88%|████████▊ | 35/40 [06:30<00:59, 11.84s/it]
+Ancient LOO (dyadic):  90%|█████████ | 36/40 [06:42<00:47, 11.79s/it]
+Ancient LOO (dyadic):  92%|█████████▎| 37/40 [06:54<00:36, 12.02s/it]
+Ancient LOO (dyadic):  95%|█████████▌| 38/40 [07:07<00:24, 12.17s/it]
+Ancient LOO (dyadic):  98%|█████████▊| 39/40 [07:20<00:12, 12.46s/it]
+Ancient LOO (dyadic): 100%|██████████| 40/40 [07:33<00:00, 12.63s/it]
+Ancient LOO (dyadic): 100%|██████████| 40/40 [07:33<00:00, 11.34s/it]
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:190: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Saved: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\ancient_loo_dyadic.parquet
+
+--- ANCIENT_LOO_DYADIC RESULTS ---
+     City  Mean_Long  Mean_Lat  Std_Long  Std_Lat  Error_KM
+ Hanaknak  36.492001 39.886002     1.573    0.659    60.559
+   Hattus  35.553001 39.271000     0.660    0.306   117.358
+   Hurama  37.702000 38.411999     0.543    0.267    54.181
+    Kanes  36.841999 38.226002     0.954    0.355   126.627
+  Karahna  35.094002 39.129002     1.206    0.714   130.883
+  Malitta  35.214001 39.290001     1.109    0.521   125.406
+    Mamma  36.084999 38.019001     0.478    0.223    88.752
+Salatuwar  33.630001 39.068001     0.363    0.293   157.569
+   Samuha  35.476002 39.516998     0.988    0.623    92.932
+ Tapaggas  34.884998 39.756001     0.790    0.548    88.332
+Timelkiya  36.648998 38.202999     0.572    0.250   140.382
+    Ulama  33.199001 39.764999     1.134    0.567   160.417
+  Unipsum  36.980999 37.848000     0.646    0.419    46.125
+Wahsusana  33.334000 39.678001     0.447    0.256    12.813
+Zimishuna  35.198002 39.556000     0.901    0.675   108.034
+
+Overall Mean Error: 100.69 km
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\ancient_loo_dyadic

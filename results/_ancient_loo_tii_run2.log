@@ -1,0 +1,120 @@
+﻿python.exe : 
+At line:5 char:1
++ & $py experiments\ancient_loo_tii.py 2>&1 | Tee-Object -FilePath 'res ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Ancient LOO (tii):   0%|          | 0/40 [00:00<?, ?it/s]
+Ancient LOO (tii):   2%|▎         | 1/40 [00:02<01:36,  2.47s/it]
+Ancient LOO (tii):   5%|▌         | 2/40 [00:04<01:31,  2.42s/it]
+Ancient LOO (tii):   8%|▊         | 3/40 [00:07<01:28,  2.40s/it]
+Ancient LOO (tii):  10%|█         | 4/40 [00:09<01:24,  2.36s/it]
+Ancient LOO (tii):  12%|█▎        | 5/40 [00:12<01:30,  2.58s/it]
+Ancient LOO (tii):  15%|█▌        | 6/40 [00:15<01:33,  2.75s/it]
+Ancient LOO (tii):  18%|█▊        | 7/40 [00:18<01:33,  2.83s/it]
+Ancient LOO (tii):  20%|██        | 8/40 [00:21<01:32,  2.88s/it]
+Ancient LOO (tii):  22%|██▎       | 9/40 [00:24<01:30,  2.93s/it]
+Ancient LOO (tii):  25%|██▌       | 10/40 [00:27<01:27,  2.93s/it]
+Ancient LOO (tii):  28%|██▊       | 11/40 [00:30<01:25,  2.97s/it]
+Ancient LOO (tii):  30%|███       | 12/40 [00:33<01:23,  2.97s/it]
+Ancient LOO (tii):  32%|███▎      | 13/40 [00:36<01:20,  2.97s/it]
+Ancient LOO (tii):  35%|███▌      | 14/40 [00:39<01:16,  2.96s/it]
+Ancient LOO (tii):  38%|███▊      | 15/40 [00:42<01:13,  2.94s/it]
+Ancient LOO (tii):  40%|████      | 16/40 [00:45<01:10,  2.96s/it]
+Ancient LOO (tii):  42%|████▎     | 17/40 [00:48<01:07,  2.94s/it]
+Ancient LOO (tii):  45%|████▌     | 18/40 [00:51<01:04,  2.93s/it]
+Ancient LOO (tii):  48%|████▊     | 19/40 [00:54<01:01,  2.93s/it]
+Ancient LOO (tii):  50%|█████     | 20/40 [00:57<00:59,  2.97s/it]
+Ancient LOO (tii):  52%|█████▎    | 21/40 [01:00<00:56,  2.97s/it]
+Ancient LOO (tii):  55%|█████▌    | 22/40 [01:03<00:53,  2.95s/it]
+Ancient LOO (tii):  57%|█████▊    | 23/40 [01:05<00:50,  2.94s/it]
+Ancient LOO (tii):  60%|██████    | 24/40 [01:08<00:46,  2.93s/it]
+Ancient LOO (tii):  62%|██████▎   | 25/40 [01:11<00:43,  2.93s/it]
+Ancient LOO (tii):  65%|██████▌   | 26/40 [01:14<00:40,  2.92s/it]
+Ancient LOO (tii):  68%|██████▊   | 27/40 [01:17<00:38,  2.93s/it]
+Ancient LOO (tii):  70%|███████   | 28/40 [01:20<00:35,  2.92s/it]
+Ancient LOO (tii):  72%|███████▎  | 29/40 [01:23<00:32,  2.94s/it]
+Ancient LOO (tii):  75%|███████▌  | 30/40 [01:26<00:29,  2.95s/it]
+Ancient LOO (tii):  78%|███████▊  | 31/40 [01:29<00:26,  2.94s/it]
+Ancient LOO (tii):  80%|████████  | 32/40 [01:32<00:23,  2.93s/it]
+Ancient LOO (tii):  82%|████████▎ | 33/40 [01:35<00:20,  2.94s/it]
+Ancient LOO (tii):  85%|████████▌ | 34/40 [01:38<00:17,  2.92s/it]
+Ancient LOO (tii):  88%|████████▊ | 35/40 [01:41<00:14,  2.92s/it]
+Ancient LOO (tii):  90%|█████████ | 36/40 [01:44<00:11,  2.92s/it]
+Ancient LOO (tii):  92%|█████████▎| 37/40 [01:46<00:08,  2.91s/it]
+Ancient LOO (tii):  95%|█████████▌| 38/40 [01:49<00:05,  2.94s/it]
+Ancient LOO (tii):  98%|█████████▊| 39/40 [01:52<00:02,  2.93s/it]
+Ancient LOO (tii): 100%|██████████| 40/40 [01:55<00:00,  2.91s/it]
+Ancient LOO (tii): 100%|██████████| 40/40 [01:55<00:00,  2.89s/it]
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:146: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:190: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Saved: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\ancient_loo_tii.parquet
+
+--- ANCIENT_LOO_TII RESULTS ---
+     City  Mean_Long  Mean_Lat  Std_Long  Std_Lat  Error_KM
+ Hanaknak  36.166000 40.021000     0.861    0.647    30.661
+   Hattus  35.702999 38.929001     1.096    0.699   154.568
+   Hurama  36.669998 39.235001     0.966    0.440   115.055
+    Kanes  36.342999 38.297001     0.898    0.364    87.521
+  Karahna  37.333000 38.596001     2.603    0.859   189.779
+  Malitta  33.570999 39.290001     0.662    0.444    20.592
+    Mamma  35.477001 38.416000     0.835    0.442   157.650
+Salatuwar  35.662998 38.425999     0.747    0.267   349.457
+   Samuha  35.933998 39.258999     2.082    1.084    65.620
+ Tapaggas  34.208000 39.905998     1.067    0.691   138.878
+Timelkiya  34.495998 38.984001     0.721    0.304   344.563
+    Ulama  33.493000 39.361000     0.891    0.516   109.718
+  Unipsum  36.922001 38.414001     0.931    0.910    57.120
+Wahsusana  34.054001 39.557999     0.533    0.307    55.856
+Zimishuna  35.351002 39.137001     1.010    0.938   149.419
+
+Overall Mean Error: 135.10 km
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\ancient_loo_tii

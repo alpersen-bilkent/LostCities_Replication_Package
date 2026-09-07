@@ -1,0 +1,8 @@
+﻿python.exe : 
+At line:3 char:1
++ & $py experiments\ancient_loo_dyadic.py 2>&1 | Tee-Object -FilePath ' ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Ancient LOO (dyadic):   0%|          | 0/40 [00:00<?, ?it/s]

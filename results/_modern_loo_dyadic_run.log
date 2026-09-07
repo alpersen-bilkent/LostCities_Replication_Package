@@ -1,0 +1,77 @@
+﻿python.exe : C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\data.py:199: 
+FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the 
+old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set 
+`pd.set_option('future.no_silent_downcasting', True)`
+At line:3 char:1
++ & $py experiments\modern_loo_dyadic.py 2>&1 | Tee-Object -FilePath 'r ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\user\O...asting', True)`:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df_raw = df_raw.replace({'*': 0, '-': 0}).infer_objects(copy=False)
+
+Modern LOO (dyadic):   0%|          | 0/40 [00:00<?, ?it/s]
+Modern LOO (dyadic):   2%|▎         | 1/40 [00:40<26:28, 40.72s/it]
+Modern LOO (dyadic):   5%|▌         | 2/40 [01:19<25:05, 39.62s/it]
+Modern LOO (dyadic):   8%|▊         | 3/40 [02:02<25:23, 41.16s/it]
+Modern LOO (dyadic):  10%|█         | 4/40 [02:44<24:58, 41.62s/it]
+Modern LOO (dyadic):  12%|█▎        | 5/40 [03:30<25:03, 42.96s/it]
+Modern LOO (dyadic):  15%|█▌        | 6/40 [04:09<23:38, 41.71s/it]
+Modern LOO (dyadic):  18%|█▊        | 7/40 [04:44<21:41, 39.45s/it]
+Modern LOO (dyadic):  20%|██        | 8/40 [05:21<20:38, 38.69s/it]
+Modern LOO (dyadic):  22%|██▎       | 9/40 [05:59<19:54, 38.55s/it]
+Modern LOO (dyadic):  25%|██▌       | 10/40 [06:36<19:04, 38.15s/it]
+Modern LOO (dyadic):  28%|██▊       | 11/40 [07:16<18:41, 38.69s/it]
+Modern LOO (dyadic):  30%|███       | 12/40 [08:01<18:52, 40.43s/it]
+Modern LOO (dyadic):  32%|███▎      | 13/40 [08:44<18:35, 41.30s/it]
+Modern LOO (dyadic):  35%|███▌      | 14/40 [09:27<18:06, 41.79s/it]
+Modern LOO (dyadic):  38%|███▊      | 15/40 [10:10<17:32, 42.08s/it]
+Modern LOO (dyadic):  40%|████      | 16/40 [10:54<17:03, 42.64s/it]
+Modern LOO (dyadic):  42%|████▎     | 17/40 [11:37<16:25, 42.86s/it]
+Modern LOO (dyadic):  45%|████▌     | 18/40 [12:20<15:40, 42.76s/it]
+Modern LOO (dyadic):  48%|████▊     | 19/40 [13:02<14:54, 42.61s/it]
+Modern LOO (dyadic):  50%|█████     | 20/40 [13:44<14:07, 42.37s/it]
+Modern LOO (dyadic):  52%|█████▎    | 21/40 [14:26<13:26, 42.46s/it]
+Modern LOO (dyadic):  55%|█████▌    | 22/40 [15:08<12:40, 42.27s/it]
+Modern LOO (dyadic):  57%|█████▊    | 23/40 [15:54<12:18, 43.46s/it]
+Modern LOO (dyadic):  60%|██████    | 24/40 [16:37<11:32, 43.30s/it]
+Modern LOO (dyadic):  62%|██████▎   | 25/40 [17:20<10:48, 43.20s/it]
+Modern LOO (dyadic):  65%|██████▌   | 26/40 [18:03<10:04, 43.18s/it]
+Modern LOO (dyadic):  68%|██████▊   | 27/40 [18:45<09:16, 42.83s/it]
+Modern LOO (dyadic):  70%|███████   | 28/40 [19:28<08:34, 42.89s/it]
+Modern LOO (dyadic):  72%|███████▎  | 29/40 [20:11<07:50, 42.80s/it]
+Modern LOO (dyadic):  75%|███████▌  | 30/40 [20:54<07:09, 42.90s/it]
+Modern LOO (dyadic):  78%|███████▊  | 31/40 [21:39<06:31, 43.50s/it]
+Modern LOO (dyadic):  80%|████████  | 32/40 [22:23<05:48, 43.60s/it]
+Modern LOO (dyadic):  82%|████████▎ | 33/40 [23:08<05:08, 44.02s/it]
+Modern LOO (dyadic):  85%|████████▌ | 34/40 [23:52<04:24, 44.06s/it]
+Modern LOO (dyadic):  88%|████████▊ | 35/40 [24:36<03:40, 44.05s/it]
+Modern LOO (dyadic):  90%|█████████ | 36/40 [25:19<02:55, 43.87s/it]
+Modern LOO (dyadic):  92%|█████████▎| 37/40 [26:02<02:10, 43.54s/it]
+Modern LOO (dyadic):  95%|█████████▌| 38/40 [26:45<01:26, 43.37s/it]
+Modern LOO (dyadic):  98%|█████████▊| 39/40 [27:27<00:42, 42.98s/it]
+Modern LOO (dyadic): 100%|██████████| 40/40 [28:11<00:00, 43.13s/it]
+Modern LOO (dyadic): 100%|██████████| 40/40 [28:11<00:00, 42.28s/it]
+
+Saved: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\modern_loo_dyadic.parquet
+
+--- MODERN_LOO_DYADIC RESULTS ---
+         City  Mean_Long  Mean_Lat  Std_Long  Std_Lat  Error_KM
+     ADIYAMAN  36.890999 38.522999     1.261    0.739   147.959
+      AKSARAY  35.320999 38.200001     0.915    0.527   114.166
+       AMASYA  35.631001 40.778999     1.555    1.075    22.544
+KAHRAMANMARAŞ  37.859001 37.897999     1.328    0.606    88.621
+      KAYSERİ  34.820000 38.896000     0.282    0.248    60.562
+    KIRIKKALE  34.941002 40.180000     0.915    0.783   130.392
+     KIRŞEHİR  35.501999 39.098999     0.738    0.683   116.806
+      MALATYA  39.134998 37.978001     2.843    1.234    83.601
+     NEVŞEHİR  35.458000 38.459999     0.357    0.275    67.695
+        NİĞDE  35.271999 38.396000     0.910    0.344    70.312
+        SİVAS  37.172001 39.668999     1.413    1.553    16.116
+        TOKAT  37.265999 40.674000     1.957    1.398    74.296
+       YOZGAT  35.112000 39.300999     0.723    0.384    63.117
+      ÇANKIRI  34.712002 40.630001     1.032    1.291    96.393
+        ÇORUM  35.520000 39.842999     1.078    0.769    92.848
+
+Overall Mean Error: 83.03 km
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\modern_loo_dyadic

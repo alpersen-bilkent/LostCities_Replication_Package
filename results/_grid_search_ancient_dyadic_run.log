@@ -1,0 +1,20 @@
+﻿python.exe : C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\grid_search.py:194: 
+UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+At line:5 char:1
++ & $py experiments\grid_search_ancient_dyadic.py 2>&1 | Tee-Object -Fi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\user\O...cannot be shown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\grid_search.py:215: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Ancient Dyadic grid search: embedding_dim=16, lr=0.0052
+Ancient Dyadic grid search: embedding_dim=16, lr=0.00525
+Ancient Dyadic grid search: embedding_dim=16, lr=0.0053
+Ancient Dyadic grid search: embedding_dim=16, lr=0.00535
+
+WINNER (Ancient Dyadic, 25-node graph): LR=0.0053, Emb=16, Epoch=250, Error=89.11 km
+Compare against the currently hardcoded EPOCHS=1473, LR=0.0053, EMBEDDING_DIM=16 before changing anything -- see module docstring.
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\grid_search_ancient_dyadic

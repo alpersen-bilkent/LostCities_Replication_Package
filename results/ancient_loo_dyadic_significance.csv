@@ -1,0 +1,9 @@
+,value
+reference_label,Barjamovic et al. (2019)
+reference_km,116.03
+bootstrap_mean_km,93.67972208429973
+bootstrap_std_km,1.5986321750291714
+ci_95_low_km,90.5905372428894
+ci_95_high_km,96.83364345391591
+n_resamples,2000
+p_value_one_sided,0.0

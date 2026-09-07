@@ -1,0 +1,274 @@
+﻿python.exe : 
+At line:5 char:1
++ & $py experiments\ancient_lost_dyadic.py 2>&1 | Tee-Object -FilePath  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Lost-city prediction (dyadic):   0%|          | 0/200 [00:00<?, ?it/s]
+Lost-city prediction (dyadic):   0%|          | 1/200 [00:00<02:27,  1.35it/s]
+Lost-city prediction (dyadic):   1%|          | 2/200 [00:01<02:07,  1.55it/s]
+Lost-city prediction (dyadic):   2%|▏         | 3/200 [00:01<02:00,  1.63it/s]
+Lost-city prediction (dyadic):   2%|▏         | 4/200 [00:02<01:57,  1.66it/s]
+Lost-city prediction (dyadic):   2%|▎         | 5/200 [00:03<01:55,  1.69it/s]
+Lost-city prediction (dyadic):   3%|▎         | 6/200 [00:03<01:58,  1.64it/s]
+Lost-city prediction (dyadic):   4%|▎         | 7/200 [00:04<01:55,  1.67it/s]
+Lost-city prediction (dyadic):   4%|▍         | 8/200 [00:04<01:52,  1.70it/s]
+Lost-city prediction (dyadic):   4%|▍         | 9/200 [00:05<01:52,  1.70it/s]
+Lost-city prediction (dyadic):   5%|▌         | 10/200 [00:05<01:50,  1.72it/s]
+Lost-city prediction (dyadic):   6%|▌         | 11/200 [00:06<01:49,  1.72it/s]
+Lost-city prediction (dyadic):   6%|▌         | 12/200 [00:07<01:59,  1.57it/s]
+Lost-city prediction (dyadic):   6%|▋         | 13/200 [00:08<02:10,  1.43it/s]
+Lost-city prediction (dyadic):   7%|▋         | 14/200 [00:08<02:15,  1.37it/s]
+Lost-city prediction (dyadic):   8%|▊         | 15/200 [00:09<02:17,  1.34it/s]
+Lost-city prediction (dyadic):   8%|▊         | 16/200 [00:10<02:18,  1.33it/s]
+Lost-city prediction (dyadic):   8%|▊         | 17/200 [00:11<02:19,  1.31it/s]
+Lost-city prediction (dyadic):   9%|▉         | 18/200 [00:12<02:18,  1.31it/s]
+Lost-city prediction (dyadic):  10%|▉         | 19/200 [00:12<02:18,  1.30it/s]
+Lost-city prediction (dyadic):  10%|█         | 20/200 [00:13<02:29,  1.21it/s]
+Lost-city prediction (dyadic):  10%|█         | 21/200 [00:14<02:30,  1.19it/s]
+Lost-city prediction (dyadic):  11%|█         | 22/200 [00:15<02:35,  1.14it/s]
+Lost-city prediction (dyadic):  12%|█▏        | 23/200 [00:16<02:35,  1.13it/s]
+Lost-city prediction (dyadic):  12%|█▏        | 24/200 [00:17<02:34,  1.14it/s]
+Lost-city prediction (dyadic):  12%|█▎        | 25/200 [00:18<02:32,  1.14it/s]
+Lost-city prediction (dyadic):  13%|█▎        | 26/200 [00:19<02:37,  1.10it/s]
+Lost-city prediction (dyadic):  14%|█▎        | 27/200 [00:20<02:37,  1.10it/s]
+Lost-city prediction (dyadic):  14%|█▍        | 28/200 [00:21<02:35,  1.11it/s]
+Lost-city prediction (dyadic):  14%|█▍        | 29/200 [00:21<02:27,  1.16it/s]
+Lost-city prediction (dyadic):  15%|█▌        | 30/200 [00:22<02:21,  1.21it/s]
+Lost-city prediction (dyadic):  16%|█▌        | 31/200 [00:23<02:16,  1.23it/s]
+Lost-city prediction (dyadic):  16%|█▌        | 32/200 [00:24<02:14,  1.25it/s]
+Lost-city prediction (dyadic):  16%|█▋        | 33/200 [00:24<02:13,  1.25it/s]
+Lost-city prediction (dyadic):  17%|█▋        | 34/200 [00:25<02:19,  1.19it/s]
+Lost-city prediction (dyadic):  18%|█▊        | 35/200 [00:26<02:19,  1.18it/s]
+Lost-city prediction (dyadic):  18%|█▊        | 36/200 [00:27<02:14,  1.22it/s]
+Lost-city prediction (dyadic):  18%|█▊        | 37/200 [00:28<02:21,  1.15it/s]
+Lost-city prediction (dyadic):  19%|█▉        | 38/200 [00:29<02:16,  1.19it/s]
+Lost-city prediction (dyadic):  20%|█▉        | 39/200 [00:30<02:11,  1.22it/s]
+Lost-city prediction (dyadic):  20%|██        | 40/200 [00:30<02:09,  1.23it/s]
+Lost-city prediction (dyadic):  20%|██        | 41/200 [00:31<02:06,  1.25it/s]
+Lost-city prediction (dyadic):  21%|██        | 42/200 [00:32<02:04,  1.27it/s]
+Lost-city prediction (dyadic):  22%|██▏       | 43/200 [00:33<02:04,  1.26it/s]
+Lost-city prediction (dyadic):  22%|██▏       | 44/200 [00:33<02:02,  1.27it/s]
+Lost-city prediction (dyadic):  22%|██▎       | 45/200 [00:34<02:02,  1.26it/s]
+Lost-city prediction (dyadic):  23%|██▎       | 46/200 [00:35<02:02,  1.25it/s]
+Lost-city prediction (dyadic):  24%|██▎       | 47/200 [00:36<02:02,  1.25it/s]
+Lost-city prediction (dyadic):  24%|██▍       | 48/200 [00:37<02:00,  1.26it/s]
+Lost-city prediction (dyadic):  24%|██▍       | 49/200 [00:37<01:58,  1.28it/s]
+Lost-city prediction (dyadic):  25%|██▌       | 50/200 [00:38<01:59,  1.26it/s]
+Lost-city prediction (dyadic):  26%|██▌       | 51/200 [00:39<01:58,  1.26it/s]
+Lost-city prediction (dyadic):  26%|██▌       | 52/200 [00:40<01:58,  1.25it/s]
+Lost-city prediction (dyadic):  26%|██▋       | 53/200 [00:41<02:00,  1.22it/s]
+Lost-city prediction (dyadic):  27%|██▋       | 54/200 [00:41<01:56,  1.25it/s]
+Lost-city prediction (dyadic):  28%|██▊       | 55/200 [00:42<01:53,  1.27it/s]
+Lost-city prediction (dyadic):  28%|██▊       | 56/200 [00:43<01:52,  1.28it/s]
+Lost-city prediction (dyadic):  28%|██▊       | 57/200 [00:44<01:50,  1.30it/s]
+Lost-city prediction (dyadic):  29%|██▉       | 58/200 [00:44<01:48,  1.31it/s]
+Lost-city prediction (dyadic):  30%|██▉       | 59/200 [00:45<01:48,  1.30it/s]
+Lost-city prediction (dyadic):  30%|███       | 60/200 [00:46<01:47,  1.30it/s]
+Lost-city prediction (dyadic):  30%|███       | 61/200 [00:47<01:47,  1.30it/s]
+Lost-city prediction (dyadic):  31%|███       | 62/200 [00:47<01:45,  1.31it/s]
+Lost-city prediction (dyadic):  32%|███▏      | 63/200 [00:48<01:43,  1.32it/s]
+Lost-city prediction (dyadic):  32%|███▏      | 64/200 [00:49<01:43,  1.31it/s]
+Lost-city prediction (dyadic):  32%|███▎      | 65/200 [00:50<01:42,  1.32it/s]
+Lost-city prediction (dyadic):  33%|███▎      | 66/200 [00:51<01:42,  1.31it/s]
+Lost-city prediction (dyadic):  34%|███▎      | 67/200 [00:51<01:41,  1.31it/s]
+Lost-city prediction (dyadic):  34%|███▍      | 68/200 [00:52<01:39,  1.33it/s]
+Lost-city prediction (dyadic):  34%|███▍      | 69/200 [00:53<01:40,  1.31it/s]
+Lost-city prediction (dyadic):  35%|███▌      | 70/200 [00:54<01:39,  1.30it/s]
+Lost-city prediction (dyadic):  36%|███▌      | 71/200 [00:54<01:38,  1.31it/s]
+Lost-city prediction (dyadic):  36%|███▌      | 72/200 [00:55<01:42,  1.25it/s]
+Lost-city prediction (dyadic):  36%|███▋      | 73/200 [00:56<01:40,  1.26it/s]
+Lost-city prediction (dyadic):  37%|███▋      | 74/200 [00:57<01:38,  1.28it/s]
+Lost-city prediction (dyadic):  38%|███▊      | 75/200 [00:57<01:36,  1.30it/s]
+Lost-city prediction (dyadic):  38%|███▊      | 76/200 [00:58<01:35,  1.30it/s]
+Lost-city prediction (dyadic):  38%|███▊      | 77/200 [00:59<01:34,  1.30it/s]
+Lost-city prediction (dyadic):  39%|███▉      | 78/200 [01:00<01:33,  1.31it/s]
+Lost-city prediction (dyadic):  40%|███▉      | 79/200 [01:01<01:32,  1.30it/s]
+Lost-city prediction (dyadic):  40%|████      | 80/200 [01:01<01:31,  1.31it/s]
+Lost-city prediction (dyadic):  40%|████      | 81/200 [01:02<01:30,  1.31it/s]
+Lost-city prediction (dyadic):  41%|████      | 82/200 [01:03<01:29,  1.32it/s]
+Lost-city prediction (dyadic):  42%|████▏     | 83/200 [01:04<01:28,  1.32it/s]
+Lost-city prediction (dyadic):  42%|████▏     | 84/200 [01:04<01:28,  1.31it/s]
+Lost-city prediction (dyadic):  42%|████▎     | 85/200 [01:05<01:27,  1.31it/s]
+Lost-city prediction (dyadic):  43%|████▎     | 86/200 [01:06<01:29,  1.27it/s]
+Lost-city prediction (dyadic):  44%|████▎     | 87/200 [01:07<01:32,  1.22it/s]
+Lost-city prediction (dyadic):  44%|████▍     | 88/200 [01:08<01:31,  1.22it/s]
+Lost-city prediction (dyadic):  44%|████▍     | 89/200 [01:08<01:29,  1.24it/s]
+Lost-city prediction (dyadic):  45%|████▌     | 90/200 [01:09<01:27,  1.26it/s]
+Lost-city prediction (dyadic):  46%|████▌     | 91/200 [01:10<01:25,  1.28it/s]
+Lost-city prediction (dyadic):  46%|████▌     | 92/200 [01:11<01:23,  1.30it/s]
+Lost-city prediction (dyadic):  46%|████▋     | 93/200 [01:11<01:22,  1.30it/s]
+Lost-city prediction (dyadic):  47%|████▋     | 94/200 [01:12<01:21,  1.30it/s]
+Lost-city prediction (dyadic):  48%|████▊     | 95/200 [01:13<01:20,  1.30it/s]
+Lost-city prediction (dyadic):  48%|████▊     | 96/200 [01:14<01:19,  1.31it/s]
+Lost-city prediction (dyadic):  48%|████▊     | 97/200 [01:15<01:18,  1.32it/s]
+Lost-city prediction (dyadic):  49%|████▉     | 98/200 [01:15<01:17,  1.32it/s]
+Lost-city prediction (dyadic):  50%|████▉     | 99/200 [01:16<01:16,  1.31it/s]
+Lost-city prediction (dyadic):  50%|█████     | 100/200 [01:17<01:15,  1.32it/s]
+Lost-city prediction (dyadic):  50%|█████     | 101/200 [01:18<01:15,  1.32it/s]
+Lost-city prediction (dyadic):  51%|█████     | 102/200 [01:18<01:14,  1.32it/s]
+Lost-city prediction (dyadic):  52%|█████▏    | 103/200 [01:19<01:13,  1.32it/s]
+Lost-city prediction (dyadic):  52%|█████▏    | 104/200 [01:20<01:12,  1.33it/s]
+Lost-city prediction (dyadic):  52%|█████▎    | 105/200 [01:21<01:11,  1.33it/s]
+Lost-city prediction (dyadic):  53%|█████▎    | 106/200 [01:21<01:10,  1.32it/s]
+Lost-city prediction (dyadic):  54%|█████▎    | 107/200 [01:22<01:10,  1.33it/s]
+Lost-city prediction (dyadic):  54%|█████▍    | 108/200 [01:23<01:09,  1.33it/s]
+Lost-city prediction (dyadic):  55%|█████▍    | 109/200 [01:24<01:08,  1.33it/s]
+Lost-city prediction (dyadic):  55%|█████▌    | 110/200 [01:24<01:07,  1.32it/s]
+Lost-city prediction (dyadic):  56%|█████▌    | 111/200 [01:25<01:07,  1.32it/s]
+Lost-city prediction (dyadic):  56%|█████▌    | 112/200 [01:26<01:06,  1.33it/s]
+Lost-city prediction (dyadic):  56%|█████▋    | 113/200 [01:27<01:05,  1.33it/s]
+Lost-city prediction (dyadic):  57%|█████▋    | 114/200 [01:27<01:04,  1.34it/s]
+Lost-city prediction (dyadic):  57%|█████▊    | 115/200 [01:28<01:03,  1.33it/s]
+Lost-city prediction (dyadic):  58%|█████▊    | 116/200 [01:29<01:03,  1.33it/s]
+Lost-city prediction (dyadic):  58%|█████▊    | 117/200 [01:30<01:02,  1.33it/s]
+Lost-city prediction (dyadic):  59%|█████▉    | 118/200 [01:30<01:02,  1.32it/s]
+Lost-city prediction (dyadic):  60%|█████▉    | 119/200 [01:31<01:01,  1.31it/s]
+Lost-city prediction (dyadic):  60%|██████    | 120/200 [01:32<01:00,  1.31it/s]
+Lost-city prediction (dyadic):  60%|██████    | 121/200 [01:33<01:00,  1.30it/s]
+Lost-city prediction (dyadic):  61%|██████    | 122/200 [01:33<00:59,  1.32it/s]
+Lost-city prediction (dyadic):  62%|██████▏   | 123/200 [01:34<00:59,  1.30it/s]
+Lost-city prediction (dyadic):  62%|██████▏   | 124/200 [01:35<00:58,  1.29it/s]
+Lost-city prediction (dyadic):  62%|██████▎   | 125/200 [01:36<00:57,  1.29it/s]
+Lost-city prediction (dyadic):  63%|██████▎   | 126/200 [01:37<00:56,  1.30it/s]
+Lost-city prediction (dyadic):  64%|██████▎   | 127/200 [01:37<00:55,  1.31it/s]
+Lost-city prediction (dyadic):  64%|██████▍   | 128/200 [01:38<00:54,  1.32it/s]
+Lost-city prediction (dyadic):  64%|██████▍   | 129/200 [01:39<00:53,  1.32it/s]
+Lost-city prediction (dyadic):  65%|██████▌   | 130/200 [01:40<00:52,  1.33it/s]
+Lost-city prediction (dyadic):  66%|██████▌   | 131/200 [01:40<00:54,  1.28it/s]
+Lost-city prediction (dyadic):  66%|██████▌   | 132/200 [01:41<00:53,  1.27it/s]
+Lost-city prediction (dyadic):  66%|██████▋   | 133/200 [01:42<00:52,  1.27it/s]
+Lost-city prediction (dyadic):  67%|██████▋   | 134/200 [01:43<00:51,  1.29it/s]
+Lost-city prediction (dyadic):  68%|██████▊   | 135/200 [01:43<00:50,  1.30it/s]
+Lost-city prediction (dyadic):  68%|██████▊   | 136/200 [01:44<00:48,  1.31it/s]
+Lost-city prediction (dyadic):  68%|██████▊   | 137/200 [01:45<00:48,  1.31it/s]
+Lost-city prediction (dyadic):  69%|██████▉   | 138/200 [01:46<00:47,  1.31it/s]
+Lost-city prediction (dyadic):  70%|██████▉   | 139/200 [01:47<00:46,  1.31it/s]
+Lost-city prediction (dyadic):  70%|███████   | 140/200 [01:47<00:45,  1.31it/s]
+Lost-city prediction (dyadic):  70%|███████   | 141/200 [01:48<00:44,  1.32it/s]
+Lost-city prediction (dyadic):  71%|███████   | 142/200 [01:49<00:44,  1.31it/s]
+Lost-city prediction (dyadic):  72%|███████▏  | 143/200 [01:50<00:43,  1.32it/s]
+Lost-city prediction (dyadic):  72%|███████▏  | 144/200 [01:50<00:42,  1.33it/s]
+Lost-city prediction (dyadic):  72%|███████▎  | 145/200 [01:51<00:41,  1.32it/s]
+Lost-city prediction (dyadic):  73%|███████▎  | 146/200 [01:52<00:41,  1.32it/s]
+Lost-city prediction (dyadic):  74%|███████▎  | 147/200 [01:53<00:40,  1.31it/s]
+Lost-city prediction (dyadic):  74%|███████▍  | 148/200 [01:53<00:39,  1.30it/s]
+Lost-city prediction (dyadic):  74%|███████▍  | 149/200 [01:54<00:38,  1.31it/s]
+Lost-city prediction (dyadic):  75%|███████▌  | 150/200 [01:55<00:38,  1.31it/s]
+Lost-city prediction (dyadic):  76%|███████▌  | 151/200 [01:56<00:37,  1.32it/s]
+Lost-city prediction (dyadic):  76%|███████▌  | 152/200 [01:56<00:36,  1.32it/s]
+Lost-city prediction (dyadic):  76%|███████▋  | 153/200 [01:57<00:35,  1.32it/s]
+Lost-city prediction (dyadic):  77%|███████▋  | 154/200 [01:58<00:34,  1.33it/s]
+Lost-city prediction (dyadic):  78%|███████▊  | 155/200 [01:59<00:33,  1.32it/s]
+Lost-city prediction (dyadic):  78%|███████▊  | 156/200 [01:59<00:33,  1.33it/s]
+Lost-city prediction (dyadic):  78%|███████▊  | 157/200 [02:00<00:32,  1.32it/s]
+Lost-city prediction (dyadic):  79%|███████▉  | 158/200 [02:01<00:31,  1.32it/s]
+Lost-city prediction (dyadic):  80%|███████▉  | 159/200 [02:02<00:30,  1.32it/s]
+Lost-city prediction (dyadic):  80%|████████  | 160/200 [02:02<00:30,  1.32it/s]
+Lost-city prediction (dyadic):  80%|████████  | 161/200 [02:03<00:29,  1.31it/s]
+Lost-city prediction (dyadic):  81%|████████  | 162/200 [02:04<00:28,  1.32it/s]
+Lost-city prediction (dyadic):  82%|████████▏ | 163/200 [02:05<00:28,  1.31it/s]
+Lost-city prediction (dyadic):  82%|████████▏ | 164/200 [02:05<00:27,  1.31it/s]
+Lost-city prediction (dyadic):  82%|████████▎ | 165/200 [02:06<00:26,  1.31it/s]
+Lost-city prediction (dyadic):  83%|████████▎ | 166/200 [02:07<00:25,  1.31it/s]
+Lost-city prediction (dyadic):  84%|████████▎ | 167/200 [02:08<00:25,  1.28it/s]
+Lost-city prediction (dyadic):  84%|████████▍ | 168/200 [02:09<00:24,  1.28it/s]
+Lost-city prediction (dyadic):  84%|████████▍ | 169/200 [02:09<00:23,  1.30it/s]
+Lost-city prediction (dyadic):  85%|████████▌ | 170/200 [02:10<00:22,  1.30it/s]
+Lost-city prediction (dyadic):  86%|████████▌ | 171/200 [02:11<00:22,  1.31it/s]
+Lost-city prediction (dyadic):  86%|████████▌ | 172/200 [02:12<00:21,  1.31it/s]
+Lost-city prediction (dyadic):  86%|████████▋ | 173/200 [02:12<00:20,  1.31it/s]
+Lost-city prediction (dyadic):  87%|████████▋ | 174/200 [02:13<00:19,  1.31it/s]
+Lost-city prediction (dyadic):  88%|████████▊ | 175/200 [02:14<00:18,  1.32it/s]
+Lost-city prediction (dyadic):  88%|████████▊ | 176/200 [02:15<00:18,  1.32it/s]
+Lost-city prediction (dyadic):  88%|████████▊ | 177/200 [02:15<00:17,  1.33it/s]
+Lost-city prediction (dyadic):  89%|████████▉ | 178/200 [02:16<00:16,  1.32it/s]
+Lost-city prediction (dyadic):  90%|████████▉ | 179/200 [02:17<00:15,  1.31it/s]
+Lost-city prediction (dyadic):  90%|█████████ | 180/200 [02:18<00:15,  1.31it/s]
+Lost-city prediction (dyadic):  90%|█████████ | 181/200 [02:18<00:14,  1.32it/s]
+Lost-city prediction (dyadic):  91%|█████████ | 182/200 [02:19<00:13,  1.33it/s]
+Lost-city prediction (dyadic):  92%|█████████▏| 183/200 [02:20<00:12,  1.32it/s]
+Lost-city prediction (dyadic):  92%|█████████▏| 184/200 [02:21<00:12,  1.28it/s]
+Lost-city prediction (dyadic):  92%|█████████▎| 185/200 [02:22<00:12,  1.25it/s]
+Lost-city prediction (dyadic):  93%|█████████▎| 186/200 [02:23<00:11,  1.22it/s]
+Lost-city prediction (dyadic):  94%|█████████▎| 187/200 [02:23<00:10,  1.25it/s]
+Lost-city prediction (dyadic):  94%|█████████▍| 188/200 [02:24<00:09,  1.28it/s]
+Lost-city prediction (dyadic):  94%|█████████▍| 189/200 [02:25<00:08,  1.29it/s]
+Lost-city prediction (dyadic):  95%|█████████▌| 190/200 [02:26<00:07,  1.31it/s]
+Lost-city prediction (dyadic):  96%|█████████▌| 191/200 [02:26<00:06,  1.30it/s]
+Lost-city prediction (dyadic):  96%|█████████▌| 192/200 [02:27<00:06,  1.30it/s]
+Lost-city prediction (dyadic):  96%|█████████▋| 193/200 [02:28<00:05,  1.31it/s]
+Lost-city prediction (dyadic):  97%|█████████▋| 194/200 [02:29<00:04,  1.31it/s]
+Lost-city prediction (dyadic):  98%|█████████▊| 195/200 [02:29<00:03,  1.32it/s]
+Lost-city prediction (dyadic):  98%|█████████▊| 196/200 [02:30<00:03,  1.32it/s]
+Lost-city prediction (dyadic):  98%|█████████▊| 197/200 [02:31<00:02,  1.32it/s]
+Lost-city prediction (dyadic):  99%|█████████▉| 198/200 [02:32<00:01,  1.31it/s]
+Lost-city prediction (dyadic): 100%|█████████▉| 199/200 [02:32<00:00,  1.28it/s]
+Lost-city prediction (dyadic): 100%|██████████| 200/200 [02:33<00:00,  1.27it/s]
+Lost-city prediction (dyadic): 100%|██████████| 200/200 [02:33<00:00,  1.30it/s]
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:181: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\src\plots.py:229: UserWarning: 
+FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Saved: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\ancient_lost_dyadic.parquet
+
+--- PREDICTION RESULTS ---
+(Dist_to_Baj = Barjamovic et al. gravity model; Dist_to_Barjamovic2011 = Barjamovic's own historian proposal; Dist_to_Forlanini2008 = Forlanini's historian proposal)
+       City  Mean_Long  Mean_Lat  Std_Long  Std_Lat  Dist_to_Baj  Dist_to_Barjamovic2011  Dist_to_Forlanini2008
+   Durhumit  34.244999 39.793999     0.624    0.323      144.258                 160.927                 76.505
+     Hahhum  35.797001 39.692001     0.418    0.247      241.535                 332.281                332.281
+   Kuburnat  37.374001 38.875000     1.044    0.493      217.165                 153.795                205.456
+    Ninassa  34.243000 39.570000     0.787    0.513       73.062                  91.879                 72.437
+Purushaddum  33.442001 39.202999     0.421    0.219       75.396                 193.381                 95.530
+ Sinahuttum  35.564999 40.389999     0.452    0.335       77.432                  68.114                 68.114
+Suppiluliya  34.820999 39.112999     0.651    0.443      102.323                  85.501                153.559
+    Tuhpiya  34.623001 39.327999     0.739    0.423       59.511                  71.243                 73.894
+  Washaniya  34.373001 39.611000     0.606    0.466       50.444                  54.545                108.895
+      Zalpa  34.484001 39.422001     0.364    0.213      303.698                 405.427                387.706
+
+Avg Distance to Barjamovic et al. (gravity model): 134.48 km
+Avg Distance to Barjamovic 2011 (historian): 161.71 km
+Avg Distance to Forlanini 2008 (historian): 157.44 km
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+plots.py: basemap fetch failed (SSLError: HTTPSConnectionPool(host='a.tile.opentopomap.org', port=443): Max retries exceeded with url: /6/36/23.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))) -- physical/topographic map missing from this figure. Usually a network/SSL issue reaching the tile server; check your internet connection.
+Figures saved under: C:\Users\user\OneDrive\Documents\Work\25 Fall\IE490\Codes\ArticleCodes\Revision\results\figures\ancient_lost_dyadic
